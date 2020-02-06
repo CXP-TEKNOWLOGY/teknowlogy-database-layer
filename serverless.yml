@@ -1,0 +1,17 @@
+service: teknow-pg-layer
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+# you can overwrite defaults here
+#  stage: dev
+  region: eu-west-3
+
+layers:
+  teknowPgLayer:
+    path: nodejs
+    description: 'PostGres transactions layer for teknowlogy group'
+    compatibleRuntimes: # optional, a list of runtimes this layer is compatible with
+      - nodejs12.x
+      - nodejs10.x
