@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pg-promise": "^10.4.2"
+    "pg-promise": "^10.4.2",
+	"teknow-pg-layer": "file:../node_modules/teknow-pg-layer"
   }
 }
