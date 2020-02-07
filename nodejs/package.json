@@ -1,5 +1,5 @@
 {
-  "name": "teknow-pg-layer",
+  "name": "teknowlogy-database-layer",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pg-promise": "^10.4.2"
+	"teknow-pg-layer": "file:./lib"
   },
   "files": [
     "lib"
