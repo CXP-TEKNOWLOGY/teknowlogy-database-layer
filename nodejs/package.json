@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-	"teknow-pg-layer": "file:./lib"
+    "teknowlogy-db-layer": "file:./lib",
+    "pg-promise": "^10.4.2"
   },
   "files": [
     "lib"
