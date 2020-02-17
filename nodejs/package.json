@@ -12,6 +12,9 @@
     "teknowlogy-db-layer": "file:./lib",
     "pg-promise": "^10.4.2"
   },
+  "devDependencies": {
+    "aws-sdk": "^2.615.0"
+  },
   "files": [
     "lib"
   ]
